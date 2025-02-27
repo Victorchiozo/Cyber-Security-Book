@@ -153,6 +153,41 @@ h5{
         font-size: 30px;
         flex: wrap;
     }
+    .btn i{
+        color: black;
+    }
+    .menu{
+       flex-direction: column;
+       position: absolute;
+       top: 60px;
+       width: 50%;
+       right: -200%;
+       height: 40vh;
+       background: green;
+       transition: 0.5s;
+       background-color: green;
+       float: right;
+       text-align: center;
+       margin-right: 13px;
+       border-radius: 10px;
+    }
+    .menu li{
+      display: inline;
+      text-align: center;
+      color: black;
+      font-weight: 900;
+      line-height: 10px;
+      float: right;
+      cursor: pointer;
+      padding-top: 20px;
+      margin-bottom: 20px;
+      margin-right: 50px;
+    }
+
+    .menu.active{
+    right: 0;
+    }
+}
     .logo{
     width: 50px;
     height: 50px;
@@ -273,39 +308,5 @@ h5{
     font-style: italic;
     color: white;
     background-color: brown;
-    .btn i{
-        color: black;
-    }
-    .menu{
-       flex-direction: column;
-       position: absolute;
-       top: 60px;
-       width: 50%;
-       right: -200%;
-       height: 40vh;
-       background: green;
-       transition: 0.5s;
-       background-color: green;
-       float: right;
-       text-align: center;
-       margin-right: 13px;
-       border-radius: 10px;
-    }
-    .menu li{
-      display: inline;
-      text-align: center;
-      color: black;
-      font-weight: 900;
-      line-height: 10px;
-      float: right;
-      cursor: pointer;
-      padding-top: 20px;
-      margin-bottom: 20px;
-      margin-right: 50px;
-    }
-
-    .menu.active{
-    right: 0;
-    }
-}
+    
 
