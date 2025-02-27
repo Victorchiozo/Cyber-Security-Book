@@ -147,11 +147,11 @@ h5{
 }
 @media (max-width: 900px){
     .btn{
-        display: flex;
+        display: block;
         cursor: pointer;
         margin-right: 20px;
         font-size: 30px;
-        flex: wrap;
+        flex-wrap: wrap;
     }
     .btn i{
         color: black;
