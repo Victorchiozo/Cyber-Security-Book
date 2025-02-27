@@ -236,14 +236,13 @@ h2{
     align-items: center;
     background-color: black;
     color: white;
+    text-align: center;
 }
 .well img{
     width: 100px;
     height: 100px;
     border-radius: 30px;
-    padding-left: 20px;
-    margin-left: 20px;
-    margin-right: 50px
+    flex-wrap: wrap;
 }
 .US{
     justify-content: space-between;
