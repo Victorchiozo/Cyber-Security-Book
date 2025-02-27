@@ -147,7 +147,7 @@ h5{
 }
 @media (max-width: 900px){
     .btn{
-        display: block;
+        display: flex;
         cursor: pointer;
         margin-right: 20px;
         font-size: 30px;
@@ -279,7 +279,7 @@ h5{
     .menu{
        flex-direction: column;
        position: absolute;
-       top: 54px;
+       top: 60px;
        width: 50%;
        right: -200%;
        height: 40vh;
@@ -301,7 +301,7 @@ h5{
       cursor: pointer;
       padding-top: 20px;
       margin-bottom: 20px;
-      margin-right: 10px;
+      margin-right: 50px;
     }
 
     .menu.active{
