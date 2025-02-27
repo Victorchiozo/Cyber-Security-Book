@@ -147,10 +147,11 @@ h5{
 }
 @media (max-width: 900px){
     .btn{
-        display: flex;
+        display: block;
         cursor: pointer;
         margin-right: 20px;
-        font-size: 50px;
+        font-size: 30px;
+        flex: wrap;
     }
     .btn i{
         color: black;
@@ -159,7 +160,7 @@ h5{
        flex-direction: column;
        position: absolute;
        top: 60px;
-       width: 50%;
+       width: 30%;
        right: -200%;
        height: 40vh;
        background: green;
@@ -174,13 +175,13 @@ h5{
       display: inline;
       text-align: center;
       color: black;
-      font-weight: 900;
+      font-weight: 600;
       line-height: 10px;
       float: right;
       cursor: pointer;
       padding-top: 20px;
       margin-bottom: 20px;
-      margin-right: 50px;
+      margin-right: 30px;
     }
 
     .menu.active{
