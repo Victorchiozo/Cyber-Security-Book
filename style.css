@@ -8,7 +8,7 @@ nav{
     background-color: brown;
     justify-content: space-between;
     display: flex;
-    padding: 15px;
+    padding: 0 20PX;
 }
 .logo{
     width: 100px;
