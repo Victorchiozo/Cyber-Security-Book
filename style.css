@@ -4,9 +4,16 @@ body{
     margin: 0;
     font-size: 20px;
 }
-nav{
+
+header{
+    backgound-color: red;
+    color: purple;
+    padding: 0 20px;
+}
+ header nav{
     background-color: brown;
     justify-content: space-between;
+     align-items: center;
     display: flex;
     padding: 0 20PX;
 }
